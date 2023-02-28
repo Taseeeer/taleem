@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-inputs {
+  padding: 1rem 2rem;
+}
+
+.app-inputs:focus {
+  outline: none;
+}
+
+.cldr {
+  border-radius: 10px;
+  padding: 2rem;
+  width: 550px;
+  height: 300px;
+  border: none;
+}
+
+.modal-cldr {
+  padding: 0.5rem;
+  width: 450px;
+  height: max-content;
+  border: none;
+}
+
+.react-calendar__tile--active {
+  background-color: green;
+  border-radius: 7px;
+}
+
+.custom-button {
+  position: absolute;
+  top: 10px;
+  right: 57px;
+  cursor: pointer;
+}
